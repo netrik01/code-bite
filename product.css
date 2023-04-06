@@ -1,0 +1,1342 @@
+.product {
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E8EDF3;
+    overflow: hidden;
+    font-family: Gilroy;
+}
+
+.product .swiper {
+    /* position: absolute;
+    top: 60px; */
+    width: 100%;
+    height: 50vh;
+    
+    /* border: 1px solid red; */
+}
+
+.product .swiper-slide {
+    width: 350px;
+    height: 350px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    filter: blur(3px);
+}
+.product .swiper-slide-active{
+    filter: blur(0);
+}
+.product .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+/*  Product Box  */
+
+.prodbox {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+.prodbox .button{
+    cursor: pointer;
+}
+
+.prodbox .prdbx {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 100%;
+    height: 60vh;
+}
+
+.prodbox .prdbx .pdbox {
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    height: 100%;
+    border-radius: 0 50px 0 50px;
+    z-index: 8;
+}
+
+.screen-1 .scn-1top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/capsicum.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-1 {
+    padding: 15px;
+}
+
+.screen-1 .scn-1top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-1 .scn-1top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-1 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-1 .lad {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen .next-screen-header {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/capsicum\ 1.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.next-screen .prbxibw button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.screen-2 .scn-2top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Carrot.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-2 {
+    padding: 15px;
+}
+
+.screen-2 .scn-2top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-2 .scn-2top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-2 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-2 .lad1 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen1 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen1 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen1 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen1 .next-screen-header1 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Carrot.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen1 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen1 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen1 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.buy2 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.wish2 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.screen-3 .scn-3top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Tomato.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-3 {
+    padding: 15px;
+}
+
+.screen-3 .scn-3top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-3 .scn-3top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-3 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-3 .lad3 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen2 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen2 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen2 .next-screen-header2 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Tomato.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen2 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen2 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen2 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.wish3 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy3 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+/*-----------------------------------------4TH SECTION START------------------------------------------------------------------------------*/
+.screen-4 .scn-4top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Red-chilli-powder.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-4 {
+    padding: 15px;
+}
+
+.screen-4 .scn-4top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-4 .scn-4top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-4 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-4 .lad4 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen3 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen3 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen3 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen3 .next-screen-header3 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Red-chilli-powder.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen3 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen3 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen3 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+.wish4 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy4 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+.screen-5 .scn-5top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Tumeric.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-5 {
+    padding: 15px;
+}
+
+.screen-5 .scn-5top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-5 .scn-5top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-5 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-5 .lad5 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen4 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen4 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen4 .next-screen-header4 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Tumeric1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen4 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen4 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen4 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.wish5 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy5 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.screen-6 .scn-6top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Coriander-powder.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-6 {
+    padding: 15px;
+}
+
+.screen-6 .scn-6top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-6 .scn-6top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-6 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-6 .lad6 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen5 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen5 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen5 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen5 .next-screen-header5 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Coriander-powder.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen5 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen5 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen5 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.wish6 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy6 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+.screen-7 .scn-7top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Pistachio.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-7 {
+    padding: 15px;
+}
+
+.screen-7 .scn-7top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-7 .scn-7top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-7 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-7 .lad7 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen6 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen6 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen6 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen6 .next-screen-header6 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Pistachio.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen6 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen6 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen6 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+
+.wish7 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy7 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.screen-8 .scn-8top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Cashew.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-8 {
+    padding: 15px;
+}
+
+.screen-8 .scn-8top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-8 .scn-8top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-8 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-8 .lad8 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen7 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen7 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen7 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen7 .next-screen-header7 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Cashew.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen7 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen7 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen7 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+.wish8 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy8 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.screen-9 .scn-9top {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("./Pro-Image/Walnut.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.screen-9 {
+    padding: 15px;
+}
+
+.screen-9 .scn-9top h1 {
+    text-shadow: 7px 3px 4px rgba(0, 0, 0, 0.54);
+    position: absolute;
+    bottom: 10%;
+    padding: 40px 20px;
+    font-family: Gilroy;
+    color: white;
+    line-height: 1;
+    z-index: 1;
+}
+
+.screen-9 .scn-9top h1 span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.screen-9 .button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #101010;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen-9 .lad9 {
+    position: absolute;
+    z-index: 210;
+    bottom: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+}
+
+.next-screen8 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #101010;
+    z-index: 100;
+    font-family: Gilroy;
+}
+
+.next-screen8 i {
+    font-size: 25px;
+    color: #b8b6b6;
+    cursor: pointer;
+}
+
+.next-screen8 h1 {
+    color: #b9b8b8;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .7;
+}
+
+.next-screen8 .next-screen-header8 {
+    width: 100%;
+    height: 150px;
+    background-image: url("./Pro-Image/Walnut.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.next-screen8 p {
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 1.3; */
+    color: #b8b6b6;
+    font-family: serif;
+    font-weight: 200;
+    letter-spacing: .6px;
+    opacity: .5;
+}
+
+.next-screen8 .prbxib {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.next-screen8 .prbxipd h6 {
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: #b8b6b6;
+}
+.wish9 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.buy9 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: #f3f3f3;
+    background: linear-gradient(40deg, #a86841 0%, #55773f 46%, #6754b4 100%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+.product .pdn span{
+    color: #b8b6b6;
+}
+
+.product .prdbox2 h1{
+    padding: 10px;
+    color: #4c4b4b;
+}

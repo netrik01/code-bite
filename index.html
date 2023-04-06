@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Bite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="particle.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="box">
+            <div class="text">Loading ...</div>
+            <div class="fill"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="cursor2">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="particle" id="particles-js"></div>
+        <div class="navigation">
+            <div class="left">
+                <i id="search" class="ri-search-line"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="center">
+                <a class="a" href="#main">Home</a>
+                <a class="a" href="#product">Products</a>
+                <a class="a" href="#about">About</a>
+                <a class="a" href="#footer">Contact</a>
+                <a href="#main"><Button class="btn-popup">Login</Button></a>
+            </div>
+            <div class="right">
+                <!-- <i class="ri-menu-fill"></i> -->
+                <i id="menu" class="ri-menu-3-line"></i>
+            </div>
+        </div>
+        <div class="main_page" id="main">
+            <h1 id="mtx">Grocery</h1>
+            <p id="p">To start your day fresh every day</p>
+            <p id="p1">Delivery in 15 mins <i id="bike" class="fa-sharp fa-solid fa-motorcycle"></i></p>
+            <div class="wrapper">
+                <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="index.html">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="Password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="#">Forgot Password</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="login-register">
+                            <p>Don't have an account ? <a href="#" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <h2>Registration</h2>
+                    <form action="index.html">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Username</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="Password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I agree to the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="btn">Register</button>
+                        <div class="login-register">
+                            <p>Already have an account ? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="product" id="product">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./Pro-Image/pomegranate.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Cauliflower.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Egg.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Red-chilli.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Mango.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Rice.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Strawberry.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Tomato1.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Onion 1.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Pineapple.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/Potato.jpg"></div>
+                    <div class="swiper-slide"><img src="./Pro-Image/peas.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="prodbox">
+                <div class="prdbx prdbox1">
+                    <div class="pdbox" >
+                        <div class="next-screen">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Capsicum</span> <br /></h1>
+                            <div class="next-screen-header"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 25 </h6>
+                                <h6>5&#x25 off</h6>
+                            </div><br>
+                            <div class="prbxib prbxibw">
+                                <button class="buy1">Buy Now</button>
+                                <button class="wish1">Wishlist</button>
+                            </div>
+                            <!-- <button id="by">Buy Now</button> -->
+                        </div>
+                        <div class="screen-1">
+                            <div class="scn-1top">
+                                <h1><span>Capsicum</span> <br /></h1>
+                            </div>
+                            <div class="button btn1">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pdbox" >
+                        <div class="next-screen1">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Carrot</span> <br /></h1>
+                            <div class="next-screen-header1"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 50 </h6>
+                                <h6>10&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy2">Buy Now</button>
+                                <button class="wish2">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-2">
+                            <div class="scn-2top">
+                                <h1><span>Carrot</span> <br /></h1>
+                            </div>
+                            <div class="button btn2">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad1">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pdbox">
+                        <div class="next-screen2">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Tomato</span> <br /></h1>
+                            <div class="next-screen-header2"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 30 </h6>
+                                <h6>6&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy3">Buy Now</button>
+                                <button class="wish3">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-3">
+                            <div class="scn-3top">
+                                <h1><span>Tomato</span> <br /></h1>
+                            </div>
+                            <div class="button btn3">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad3">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prdbx prdbox2">
+                    <div id="pdboxnon" class="pdbox">
+                        <div class="next-screen3">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Red-Chilli-Powder</span> <br /></h1>
+                            <div class="next-screen-header3"></div>
+                            <p>200g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 98 </h6>
+                                <h6>3&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy4">Buy Now</button>
+                                <button class="wish4">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-4">
+                            <div class="scn-4top">
+                                <h1><span>Red-Chilli</span> <br />Powder</h1>
+                            </div>
+                            <div class="button btn4">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad4">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pdboxnon" class="pdbox">
+                        <div class="next-screen4">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Tumeric Powder</span> <br /></h1>
+                            <div class="next-screen-header4"></div>
+                            <p>200g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 55 </h6>
+                                <h6>5&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy5">Buy Now</button>
+                                <button class="wish5">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-5">
+                            <div class="scn-5top">
+                                <h1><span>Tumeric</span> <br />Powder</h1>
+                            </div>
+                            <div class="button btn5">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad5">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pdboxnon" class="pdbox">
+                        <div class="next-screen5">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Coriander Powder</span> <br /></h1>
+                            <div class="next-screen-header5"></div>
+                            <p>200g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 85</h6>
+                                <h6>7&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy6">Buy Now</button>
+                                <button class="wish6">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-6">
+                            <div class="scn-6top">
+                                <h1><span>Coriander</span> <br />Powder</h1>
+                            </div>
+                            <div class="button btn6">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad6">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prdbx prdbox2">
+                    <div class="pdbox">
+                        <div class="next-screen6">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Pistachio</span> <br /></h1>
+                            <div class="next-screen-header6"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 1500 </h6>
+                                <h6>12&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy7">Buy Now</button>
+                                <button class="wish7">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-7">
+                            <div class="scn-7top">
+                                <h1><span>Pistachio</span> <br /></h1>
+                            </div>
+                            <div class="button btn7">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad7">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pdbox">
+                        <div class="next-screen7">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Cashew</span> <br /></h1>
+                            <div class="next-screen-header7"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 750 </h6>
+                                <h6>46&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy8">Buy Now</button>
+                                <button class="wish8">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-8">
+                            <div class="scn-8top">
+                                <h1><span>Cashew</span> <br /></h1>
+                            </div>
+                            <div class="button btn8">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad8">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pdbox">
+                        <div class="next-screen8">
+                            <i class="ri-arrow-left-s-line"></i>
+                            <h1 class="pdn"><span>Walnut</span> <br /></h1>
+                            <div class="next-screen-header8"></div>
+                            <p>500g</p>
+                            <div class="prbxib prbxipd">
+                                <h6>&#8377 800 </h6>
+                                <h6>30&#x25 off</h6>
+                            </div>
+                            <div class="prbxib prbxibw">
+                                <button class="buy9">Buy Now</button>
+                                <button class="wish9">Wishlist</button>
+                            </div>
+                        </div>
+                        <div class="screen-9">
+                            <div class="scn-9top">
+                                <h1><span>Walnut</span> <br /></h1>
+                            </div>
+                            <div class="button btn9">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                            <div class="lad9">
+                                Product Details.......
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section" id="about">
+            <div class="particles1"></div>
+            <div id="content-left">
+                <div id="content">
+                    <h2>
+                        Why we are the <br />
+                        Best?
+                    </h2>
+                    <p>
+                        We Serve the best Delicious Fresh Grocery item to you <br />
+                        home or office
+                    </p>
+                    <div class="option-card" id="card1">
+                        <div class="card-img">
+                            <img src="./images/3.png" alt="" />
+                        </div>
+                        <h2>Provide Fastest Delivery</h2>
+                    </div>
+                    <div class="option-card" id="card2">
+                        <div class="card-img"><img src="./images/1.png" alt="" /></div>
+                        <h2>Easy to Order</h2>
+                    </div>
+                    <div class="option-card" id="card3">
+                        <div class="card-img"><img src="./images/2.png" alt="" /></div>
+                        <h2>Wide Coverage Map</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="content-right">
+                <div id="content2">
+                    <!-- <div id="backfig"></div> -->
+                    <div id="saler-photo">
+                        <img src="./images/grocer-app.gif" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Ad_Section">
+            <div id="leftAd">
+                <div id="mobile-frame">
+                    <img src="./images/mobile1.png" alt="" />
+                </div>
+            </div>
+            <div id="right">
+                <h1>
+                    Download Our Mobile<span>
+                    <br />
+                    App</span>
+                </h1>
+                <p>
+                    Online grocery shopping is a way of buying food and other household
+                    necessities using a web-based shopping service. There are two basic
+                    methods that people can use to purchase these items online. One is
+                    to order them from a local grocery store that participates in online
+                    shopping.
+                </p>
+                <div id="button-section">
+                    <div id="google-play">
+                        <i class="ri-google-play-fill"></i>
+                        <h1>Google Play</h1>
+                    </div>
+                    <div id="apple-play">
+                        <i class="ri-apple-fill"></i>
+                        <h1>Apple Play</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Review-Section">
+            <h1>REVIEW SECTION</h1>
+            <hr />
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-1.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women2.jpeg" alt="" />
+                        </div>
+                        <p>
+                            I love Best Grocery..
+                            excellent service. excellent cooperation. My items were wrapped so well. it was amazing. 
+                            The friend who brought my products was very polite and kept me informed as I was not at home. 
+                            
+                        </p>
+                        <div class="line"></div>
+                        <h2>Eliana Smith</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women3.jpeg" alt="" />
+                        </div>
+                        <p>
+                            Great variety of products, next day delivery, products well packed. Everything I ordered is delicious. 
+                            I also received a cute cloth bag and a gift. I will order again!
+                        </p>
+                        <div class="line"></div>
+                        <h2>Olivia</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women4.jpeg" alt="" />
+                        </div>
+                        <p>
+                            I was very happy that my orders were delivered perfectly. They also sent some extra food as gifts. Very polite and good manners.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Lucy</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/men3.jpeg" alt="" />
+                        </div>
+                        <p>  
+                            I always find what I am looking for in indian grocery items and the delivery is quick. The best thing I like about Grocery Online is their gesture- they always send a note to say thank you with some of everyone's favourite candies. 
+                        </p>
+                        <div class="line"></div>
+                        <h2>Anwaz Ansari</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-5.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women3.jpeg" alt="" />
+                        </div>
+                        <p>
+                            Excellent selection of the Haldirams products I was looking for. Competitive price and fast delivery. They were out of stock of one item, but informed me and refunded my payment immediately. I recommend Haldirams One Minute Khana to anyone who enjoys spicy plant based Indian dishes.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Alina</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-6.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/men2.jpeg" alt="" />
+                        </div>
+                        <p>
+                            Excellent service as always, on prompt delivery. One of the item was wrongly delivered but they exchanged it quickly without any hassle. Would be great if they can add more brand of Chapatti flour like elephant gold. One of the favourite online shop.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Gilbert</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-7.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women4.jpeg" alt="" />
+                        </div>
+                        <p>
+                            Very quick delivery and green veggies was really fresh and the frozen and chiller items were nicely packed with ice bag packaging.
+                            Thanks and will order definitely in future and already started recommending others.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Amabella.</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-8.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/men4.webp" alt="" />
+                        </div>
+                        <p>
+                            Excellent service - can’t fault them at all. Groceries were sent out on the day that I ordered them. The team are very helpful and responded to my queries Very quickly. I would definitely recommend them.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Robert</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="https://swiperjs.com/demos/images/nature-9.jpg" /> -->
+                        <div id="profile">
+                            <img src="./images/women.jpeg" alt="" />
+                        </div>
+                        <p>
+                            We really appreciate you for bringing fresh groceries to our door. The groceries are as fresh as us going to a local shop and buying them ourselves.
+                            Thank you.
+                        </p>
+                        <div class="line"></div>
+                        <h2>Alexa</h2>
+                        <div class="rating-stars">
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-fill"></i></div>
+                            <div class="stars"><i class="ri-star-half-line"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="third" id="footer">
+            <div class="footer">
+                <div class="footertop">
+                    <div class="ftopfst">
+                        <h1>FOLLOW</h1>
+                        <div class="logo">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-linkedin-fill"></i>
+                            <i class="ri-twitter-fill"></i>
+                            <i class="ri-facebook-fill"></i>
+                            <i class="ri-telegram-line"></i>
+                        </div>
+                    </div>
+                    <div class="ftopsnd">
+                        <div class="ftsnd fsfst">
+                            <h1>User Area</h1>
+                            <h6>My Account</h6>
+                            <h6>MY Cart</h6>
+                            <h6>Login</h6>
+                            <h6>Checkout</h6>
+                        </div>
+                        <div class="ftsnd fssnd">
+                            <h1>Shopping Guide</h1>
+                            <h6>Payment</h6>
+                            <h6>Shipment</h6>
+                            <h6>FAQ</h6>
+                            <h6>Return Policy</h6>
+                        </div>
+                        <div class="ftsnd fsthrd">
+                            <h1>Site Map</h1>
+                            <h6>Payment</h6>
+                            <h6>Shipment</h6>
+                            <h6>FAQ</h6>
+                            <h6>Return Policy</h6>
+                        </div>
+                    </div>
+                    <div class="ftopthrd">
+                        <div class="fttd1 ftdtop">
+                            <div class="ftdtp1">
+                                <span>Contact Details</span>
+                                <i class="ri-map-pin-line"></i>
+                                <h6>Tower Street <br>DL-11101, India</h6>
+                            </div>
+                            <div class="ftdtp1">
+                                <i class="ri-phone-line"></i>
+                                <h6>0012345678 <br>9807651234</h6>
+                            </div>
+                            <div class="ftdtp1">
+                                <i class="ri-mail-line"></i>
+                                <h6>codebrigade@gmail.com</h6>
+                            </div>
+                        </div>
+                        <div class="fttd1 ftdbtn">
+                            <div class="ftdbn">
+                                <span>Payment Option</span>
+                                <div class="bxn bx"></div>
+                                <div class="bxn bx1"></div>
+                                <div class="bxn bx2"></div>
+                            </div>
+                            <div class="ftdbn1">
+                                <span>Newslatter</span>
+                                <input type="Email" placeholder="Email Address">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerbtn">
+                    <hr>
+                    <h1>&#169; Copyright 2023, by Code-Brigade<sup>TM</sup></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+        integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+        integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="cursor.js"></script>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="loader.js"></script>
+    <script src="particles1.js"></script>
+    <script src="product.js"></script>
+</body>
+
+</html>

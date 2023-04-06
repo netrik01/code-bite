@@ -1,0 +1,46 @@
+/* particle  */
+
+.particle{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    color: black;
+    opacity: 0;
+}
+
+/* particles 1 */
+.particles1{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+}
+.particles1 span{
+    position: absolute;
+    /* background: #f00; */
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+    border-radius: 50%;
+}
+.particles1 span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 255, 8);
+    border-radius: 50%;
+    animation: moveParticle 2s linear infinite;
+}
+@keyframes moveParticle {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(300px);
+    }
+}
