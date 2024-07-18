@@ -5,7 +5,7 @@ nav.to(".navigation", {
     y: 60,
     opacity: 1,
     duration: 2,
-    delay: 11,
+    delay: 1,
     ease: "Expo.easeInOut"
 })
     .to(".main_page #p", {
@@ -38,7 +38,7 @@ document.querySelector("#menu")
         })
     })
 
-$('#mtx').textillate({ initialDelay: 6000, in: { effect: 'fadeInUp' }, delay: 10, delayScale: 5 });
+$('#mtx').textillate({ initialDelay: 1000, in: { effect: 'fadeInUp' }, delay: 10, delayScale: 5 });
 
 var searchFlag = 0;
 document.querySelector("#search")
